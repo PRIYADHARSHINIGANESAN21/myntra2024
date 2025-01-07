@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="page1.css">
+    <link rel="stylesheet" href="subpage.css">
+    <title>MYNTRA</title>
+</head>
+<body>
+    <header>
+        <div class="overview">
+            <div class="left-nav">
+                <img src="./dharsh_pro_img/th (1).jpg" alt="myntra logo"
+                    height="70px" width="70px">
+                <!-- MEN Dropdown -->
+                <div class="dropdown">
+                    <a href="#">MEN</a>
+                    <div class="dropdown-content">
+                        <a href="page2.html" target="_self">SHIRT</a>
+                        <a href="page3.html">PANT</a>
+                    </div>
+                </div>
+                <div class="dropdown1">
+                    <a href="#">WOMEN</a>
+                    <div class="dropdown-content1">
+                        <a href="page4.html">SAREE</a>
+                        <a href="page5.html">CHUDI</a>
+
+                    </div>
+                </div>
+                <div class="dropdown2">
+                    <a href="#">KIDS</a>
+                    <div class="dropdown-content2">
+                        <a href="page6.html">DRESS</a>
+                    </div>
+                </div>
+                <div class="dropdown3">
+                    <a href="#">HOME & LIVING</a>
+                    <div class="dropdown-content3">
+                        <a href="furniture.html">FURNITURE</a>
+                    </div>
+                </div>
+                <div class="dropdown4">
+                    <a href="#">BEAUTY</a>
+                    <div class="dropdown-content4">
+                        <a href="BEAUTY.html">LIPSTICK</a>
+                    </div>
+                </div>
+                <a href="#">STUDIO <sup style="color:red">NEW</sup></a>
+            </div>
+
+            <div class="right-nav">
+                <!-- Search bar -->
+            <form class="searchbar" action="/action_page.php">
+                <input type="text" placeholder="Search for products, brands and more" name="search2">
+                <button type="submit">
+                    <i class="fa fa-search"></i> <!-- Fixed icon class -->
+
+                </button>
+                <div class="logo">
+                <img id="myimage" src="./dharsh_pro_img\th.jpg" alt="profile logo"
+                    height="40px" width="30px">
+                    </div>
+
+            </form>
+
+            <div class="cart-icon">
+                <img src="./dharsh_pro_img/download.png" alt="cart logo1"
+                    height="50px" width="50px"
+                    />
+                <span class="cart-count">0</span>
+            </div>
+
+            <div class="login-form" id="loginForm">
+                <form>
+                    <input type="text" placeholder="Username" name="username" required>
+                    <input type="password" placeholder="Password" name="password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+            </div>
+
+    </header>
+        
+   
+      
+
+
+    <h1>FURNITURE</h1>
+
+    
+        
+      
+        <div class="product-container furniture-product-container" id="furniture-product-container"></div>
+
+     <div class="product1">
+        <button type="button" onclick="window.location.href='page6.html'">PREVIOUS</button>
+        <button type="button" onclick="window.location.href='page11.html'">HOME</button>
+        <button type="button" onclick="window.location.href='BEAUTY.html'">NEXT</button>
+    
+    </div>
+    <script src="page1.js"></script>
+    <script src="connect.js"></script>
+</body>
+</html>
