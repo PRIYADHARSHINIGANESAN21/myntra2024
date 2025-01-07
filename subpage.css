@@ -1,0 +1,103 @@
+body {
+            background-color: blanchedalmond;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh; /* Ensure the body takes up the full viewport height */
+            justify-content: space-between; /* Pushes the content and button apart */
+        }
+        h1 {
+            color: black;
+            text-align: center;
+            background-color: antiquewhite;
+            padding: 20px 0;
+        }
+        .product-container {
+            display:flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 60px;
+            flex-wrap: wrap; 
+            flex-grow: 1;
+        }
+        .product {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .product img {
+            height: 250px;
+            width: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .product-description {
+            font-style: italic;
+            margin-top: 10px;
+        }
+        .product-price {
+            font-weight: bold;
+            font-size: 18px;
+            color: green;
+            margin-top: 10px;
+        }
+        .product button {
+            background-color: #28a745; /* Green color */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .product button:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+        .product:hover {
+            transform: scale(1.05); /* Slightly enlarge product on hover */
+        }
+        .product1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .product1 button {
+            background-color: #218838;
+            border: none;
+            color: white;
+            cursor: pointer;
+            padding: 15px 30px;
+            font-size: 16px;
+            transition-duration: 0.4s;
+        }
+
+        .product1 button:hover {
+            background-color: aqua;
+        }
+
+        .cart-count{
+            position: absolute;
+           
+            margin-top: 0px;
+            height: 20px;
+            width: 20px;
+            text-align: center;
+            background-color: maroon;
+            right: -10px;
+            border-radius: 7px;
+            color: white;
+        }
+       
+
+
+
+
+
+    
